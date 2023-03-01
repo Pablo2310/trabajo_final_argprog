@@ -1,1 +1,1 @@
-# trabajo_final_argprog
+# Trabajo final utilizando html, css, y un poco de js, basado en lo aprendido durante el curso, y otras cosas viendo videos y buscando por internet. Siento que le falta mas css y amor, pero es lo que pude hacer para esta fecha. Saludos
