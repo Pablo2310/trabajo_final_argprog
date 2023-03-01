@@ -1,0 +1,145 @@
+/* Estilos globales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+    
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+    
+  ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #00A0D6;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+    
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para las habilidades */
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills li {
+    background-color: #00A0D6;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  /* Estilos para las fechas */
+  ul li p:nth-child(2) {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    text-decoration: none;
+    border-bottom: 2px solid #00A0D6;
+  }
+  
+  a:hover {
+    background-color: #00A0D6;
+    color: #FFF;
+  }
+  header nav {
+    display: none;
+  }
+  
+  header nav.active {
+    display: block;
+  }
+  section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  nav.menu ul li a {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  button {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+  }
+  div.logo {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  header {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+  }
+  header img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    height: 150px;
+    margin-right: 20px;
+    width: 150px;
+  }
+  body {
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
